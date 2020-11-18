@@ -1,4 +1,4 @@
-# lebak-web-design
+# Lebak Web Design
 projek web design salah satu daerah di indonesia yaitu lebak, banten, jawa barat. web design ini murni dibuat menggunakan html5 dan css3.
 
 # Home
