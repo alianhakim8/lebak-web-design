@@ -2,7 +2,6 @@
 projek web design salah satu daerah di indonesia yaitu lebak, banten, jawa barat. web design ini murni dibuat menggunakan html5 dan css3
 
 Screenshot
-----------------------------
 
 # Home
 ![home](https://user-images.githubusercontent.com/51102459/99526551-fcb9c680-29cd-11eb-8250-bb3262938dcc.png)
