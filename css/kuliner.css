@@ -1,0 +1,170 @@
+/* 
+Kelomok 3 | IF 3B
+- Alian Hakim
+- Lutfhi Ilza Fauzian
+*/
+
+html,
+body {
+    margin: 20px;
+}
+
+#logo {
+    width: 100px;
+    display: inline-block;
+}
+
+.navigasi {
+    float: right;
+    margin-top: 20px;
+}
+
+.navigasi a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 10pt;
+    color: rgb(160, 160, 160);
+    text-transform: uppercase;
+}
+
+.navigasi .aktif {
+    font-weight: 500;
+    color: #364f6b;
+}
+
+.navigasi a:hover {
+    color: #364f6b;
+    transition: .5s;
+}
+
+
+/* konten */
+
+.title-kuliner {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.title-kuliner span {
+    color: #3fc1c9;
+    border-bottom: solid #364f6b;
+}
+
+table tr td {
+    width: 30%;
+}
+
+.konten {
+    margin: 50px;
+}
+
+.konten h3 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.konten #subJudul {
+    margin-top: -20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    color: rgb(133, 133, 133);
+}
+
+.konten-kuliner {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.konten-kuliner table {
+    text-align: center;
+    display: inline;
+}
+
+#kuliner-1,
+#kuliner-2,
+#kuliner-3,
+#kuliner-4,
+#kuliner-5,
+#kuliner-6 {
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    box-shadow: 0px 5px 3px #888888;
+    transition: .5s;
+}
+
+#kuliner-1:hover,
+#kuliner-2:hover,
+#kuliner-3:hover,
+#kuliner-4:hover,
+#kuliner-5:hover,
+#kuliner-6:hover {
+    cursor: pointer;
+    transition: .5s;
+    transform: scale(1.1, 1.1);
+}
+
+#kuliner-1 {
+    background-image: url('../gambar/kuliner/kuliner-leumeung.jpg');
+}
+
+#kuliner-2 {
+    background-image: url('../gambar/kuliner/kuliner-kue-jojorong.jpeg');
+}
+
+#kuliner-3 {
+    background-image: url('../gambar/kuliner/kuliner-gipang.jpg');
+}
+
+#kuliner-4 {
+    background-image: url('../gambar/kuliner/kuliner-sate-bandeng.jpg');
+}
+
+#kuliner-5 {
+    background-image: url('../gambar/kuliner/kuliner-kue-cucur.png');
+}
+
+#kuliner-6 {
+    background-image: url('../gambar/kuliner/kuliner-rabeg.jpg');
+}
+
+#judul-kuliner {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 120px;
+    font-size: 15pt;
+}
+
+#judul-kuliner:hover {
+    color: #3fc1c9;
+    transition: .5s;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: 100px;
+}
+
+footer p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 10pt;
+}
+
+footer span {
+    font-weight: bold;
+    color: #364f6b;
+}
